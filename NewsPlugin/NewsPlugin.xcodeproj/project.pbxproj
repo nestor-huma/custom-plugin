@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		4043B4B167C6EEB7897016B8 /* Pods_NewsPlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F835B1274132863DB786BE /* Pods_NewsPlugin.framework */; };
-		4B5F1FD828C90D5A00A5FA87 /* NewsPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B5F1FD728C90D5A00A5FA87 /* NewsPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4B5F1FE028C90E0100A5FA87 /* NewsTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5F1FDF28C90E0100A5FA87 /* NewsTab.swift */; };
 		4B5F1FE228C90E0900A5FA87 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5F1FE128C90E0900A5FA87 /* NewsViewController.swift */; };
 		4B5F1FE428C90E1100A5FA87 /* NewsTabProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5F1FE328C90E1100A5FA87 /* NewsTabProvider.swift */; };
+		4B6BD9E028C91D4F001794F2 /* NewsPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B5F1FD728C90D5A00A5FA87 /* NewsPlugin.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +20,7 @@
 		4B5F1FDF28C90E0100A5FA87 /* NewsTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTab.swift; sourceTree = "<group>"; };
 		4B5F1FE128C90E0900A5FA87 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
 		4B5F1FE328C90E1100A5FA87 /* NewsTabProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTabProvider.swift; sourceTree = "<group>"; };
+		4BF507EA28C91A2900FDFCAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		531AF7DF069A2201A843E429 /* Pods-NewsPlugin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsPlugin.debug.xcconfig"; path = "Target Support Files/Pods-NewsPlugin/Pods-NewsPlugin.debug.xcconfig"; sourceTree = "<group>"; };
 		66F835B1274132863DB786BE /* Pods_NewsPlugin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewsPlugin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9D8686A1BE21515A2040EB7 /* Pods-NewsPlugin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsPlugin.release.xcconfig"; path = "Target Support Files/Pods-NewsPlugin/Pods-NewsPlugin.release.xcconfig"; sourceTree = "<group>"; };
@@ -78,6 +79,7 @@
 				4B5F1FDF28C90E0100A5FA87 /* NewsTab.swift */,
 				4B5F1FE128C90E0900A5FA87 /* NewsViewController.swift */,
 				4B5F1FE328C90E1100A5FA87 /* NewsTabProvider.swift */,
+				4BF507EA28C91A2900FDFCAA /* Info.plist */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -98,7 +100,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B5F1FD828C90D5A00A5FA87 /* NewsPlugin.h in Headers */,
+				4B6BD9E028C91D4F001794F2 /* NewsPlugin.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,9 +340,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSPrincipalClass = NewsPlugin.NewsTabProvider;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = NewsPlugin/Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -370,9 +371,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSPrincipalClass = NewsPlugin.NewsTabProvider;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = NewsPlugin/Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
