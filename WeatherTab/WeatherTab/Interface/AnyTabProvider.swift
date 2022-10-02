@@ -1,8 +1,8 @@
 //
 //  AnyTabProvider.swift
-//  PluginCore
+//  PluginHostApp
 //
-//  Created by Nestor Popko on 07.09.2022.
+//  Created by Nestor Popko on 13.09.2022.
 //
 
 import Foundation

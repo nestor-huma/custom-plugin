@@ -1,6 +1,0 @@
-framework module PluginCore {
-  umbrella header "PluginCore-umbrella.h"
-
-  export *
-  module * { export * }
-}

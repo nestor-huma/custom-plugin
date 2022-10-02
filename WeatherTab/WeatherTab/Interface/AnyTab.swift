@@ -1,8 +1,8 @@
 //
 //  AnyTab.swift
-//  PluginCore
+//  PluginHostApp
 //
-//  Created by Nestor Popko on 07.09.2022.
+//  Created by Nestor Popko on 13.09.2022.
 //
 
 import Foundation
@@ -13,4 +13,3 @@ public protocol AnyTab {
     var tabImage: UIImage { get }
     var rootViewController: UIViewController { get }
 }
-

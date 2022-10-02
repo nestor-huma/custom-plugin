@@ -7,141 +7,130 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4043B4B167C6EEB7897016B8 /* Pods_NewsPlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F835B1274132863DB786BE /* Pods_NewsPlugin.framework */; };
-		4B5F1FE028C90E0100A5FA87 /* NewsTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5F1FDF28C90E0100A5FA87 /* NewsTab.swift */; };
-		4B5F1FE228C90E0900A5FA87 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5F1FE128C90E0900A5FA87 /* NewsViewController.swift */; };
-		4B5F1FE428C90E1100A5FA87 /* NewsTabProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5F1FE328C90E1100A5FA87 /* NewsTabProvider.swift */; };
-		4B6BD9E028C91D4F001794F2 /* NewsPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B5F1FD728C90D5A00A5FA87 /* NewsPlugin.h */; };
+		4B19C0DE28E9D6B700BC036C /* Plugin.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4B19C0DD28E9D6B700BC036C /* Plugin.plist */; };
+		4B54DC6B28E2067F00ED3392 /* WeatherTab.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B54DC6A28E2067F00ED3392 /* WeatherTab.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B54DC7528E2069E00ED3392 /* AnyTabProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B54DC7328E2069E00ED3392 /* AnyTabProvider.swift */; };
+		4B54DC7628E2069E00ED3392 /* AnyTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B54DC7428E2069E00ED3392 /* AnyTab.swift */; };
+		4B54DC7928E206D500ED3392 /* WeatherTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B54DC7828E206D500ED3392 /* WeatherTab.swift */; };
+		4B54DC7B28E206DF00ED3392 /* WeatherTabProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B54DC7A28E206DF00ED3392 /* WeatherTabProvider.swift */; };
+		4B54DC7D28E206E800ED3392 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B54DC7C28E206E800ED3392 /* WeatherViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4B5F1FD428C90D5A00A5FA87 /* NewsPlugin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NewsPlugin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B5F1FD728C90D5A00A5FA87 /* NewsPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsPlugin.h; sourceTree = "<group>"; };
-		4B5F1FDF28C90E0100A5FA87 /* NewsTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTab.swift; sourceTree = "<group>"; };
-		4B5F1FE128C90E0900A5FA87 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
-		4B5F1FE328C90E1100A5FA87 /* NewsTabProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTabProvider.swift; sourceTree = "<group>"; };
-		4BF507EA28C91A2900FDFCAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		531AF7DF069A2201A843E429 /* Pods-NewsPlugin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsPlugin.debug.xcconfig"; path = "Target Support Files/Pods-NewsPlugin/Pods-NewsPlugin.debug.xcconfig"; sourceTree = "<group>"; };
-		66F835B1274132863DB786BE /* Pods_NewsPlugin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewsPlugin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9D8686A1BE21515A2040EB7 /* Pods-NewsPlugin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsPlugin.release.xcconfig"; path = "Target Support Files/Pods-NewsPlugin/Pods-NewsPlugin.release.xcconfig"; sourceTree = "<group>"; };
+		4B19C0DD28E9D6B700BC036C /* Plugin.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Plugin.plist; sourceTree = "<group>"; };
+		4B54DC6728E2067F00ED3392 /* WeatherTab.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WeatherTab.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B54DC6A28E2067F00ED3392 /* WeatherTab.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeatherTab.h; sourceTree = "<group>"; };
+		4B54DC7328E2069E00ED3392 /* AnyTabProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyTabProvider.swift; sourceTree = "<group>"; };
+		4B54DC7428E2069E00ED3392 /* AnyTab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyTab.swift; sourceTree = "<group>"; };
+		4B54DC7828E206D500ED3392 /* WeatherTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTab.swift; sourceTree = "<group>"; };
+		4B54DC7A28E206DF00ED3392 /* WeatherTabProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTabProvider.swift; sourceTree = "<group>"; };
+		4B54DC7C28E206E800ED3392 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4B5F1FD128C90D5A00A5FA87 /* Frameworks */ = {
+		4B54DC6428E2067F00ED3392 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4043B4B167C6EEB7897016B8 /* Pods_NewsPlugin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		399800B32A98BD1C2DDE069C /* Frameworks */ = {
+		4B54DC5D28E2067F00ED3392 = {
 			isa = PBXGroup;
 			children = (
-				66F835B1274132863DB786BE /* Pods_NewsPlugin.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		4B5F1FCA28C90D5A00A5FA87 = {
-			isa = PBXGroup;
-			children = (
-				4B5F1FD628C90D5A00A5FA87 /* NewsPlugin */,
-				4B5F1FD528C90D5A00A5FA87 /* Products */,
-				F26592D71E8CA4B62C24B122 /* Pods */,
-				399800B32A98BD1C2DDE069C /* Frameworks */,
+				4B19C0DD28E9D6B700BC036C /* Plugin.plist */,
+				4B54DC6928E2067F00ED3392 /* WeatherTab */,
+				4B54DC6828E2067F00ED3392 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4B5F1FD528C90D5A00A5FA87 /* Products */ = {
+		4B54DC6828E2067F00ED3392 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4B5F1FD428C90D5A00A5FA87 /* NewsPlugin.framework */,
+				4B54DC6728E2067F00ED3392 /* WeatherTab.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4B5F1FD628C90D5A00A5FA87 /* NewsPlugin */ = {
+		4B54DC6928E2067F00ED3392 /* WeatherTab */ = {
 			isa = PBXGroup;
 			children = (
-				4B5F1FDE28C90DF800A5FA87 /* Source */,
-				4B5F1FD728C90D5A00A5FA87 /* NewsPlugin.h */,
+				4B54DC7728E206B900ED3392 /* Tabs */,
+				4B54DC7228E2069E00ED3392 /* Interface */,
+				4B54DC6A28E2067F00ED3392 /* WeatherTab.h */,
 			);
-			path = NewsPlugin;
+			path = WeatherTab;
 			sourceTree = "<group>";
 		};
-		4B5F1FDE28C90DF800A5FA87 /* Source */ = {
+		4B54DC7228E2069E00ED3392 /* Interface */ = {
 			isa = PBXGroup;
 			children = (
-				4B5F1FDF28C90E0100A5FA87 /* NewsTab.swift */,
-				4B5F1FE128C90E0900A5FA87 /* NewsViewController.swift */,
-				4B5F1FE328C90E1100A5FA87 /* NewsTabProvider.swift */,
-				4BF507EA28C91A2900FDFCAA /* Info.plist */,
+				4B54DC7328E2069E00ED3392 /* AnyTabProvider.swift */,
+				4B54DC7428E2069E00ED3392 /* AnyTab.swift */,
 			);
-			path = Source;
+			path = Interface;
 			sourceTree = "<group>";
 		};
-		F26592D71E8CA4B62C24B122 /* Pods */ = {
+		4B54DC7728E206B900ED3392 /* Tabs */ = {
 			isa = PBXGroup;
 			children = (
-				531AF7DF069A2201A843E429 /* Pods-NewsPlugin.debug.xcconfig */,
-				C9D8686A1BE21515A2040EB7 /* Pods-NewsPlugin.release.xcconfig */,
+				4B54DC7828E206D500ED3392 /* WeatherTab.swift */,
+				4B54DC7A28E206DF00ED3392 /* WeatherTabProvider.swift */,
+				4B54DC7C28E206E800ED3392 /* WeatherViewController.swift */,
 			);
-			path = Pods;
+			path = Tabs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4B5F1FCF28C90D5A00A5FA87 /* Headers */ = {
+		4B54DC6228E2067F00ED3392 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B6BD9E028C91D4F001794F2 /* NewsPlugin.h in Headers */,
+				4B54DC6B28E2067F00ED3392 /* WeatherTab.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4B5F1FD328C90D5A00A5FA87 /* NewsPlugin */ = {
+		4B54DC6628E2067F00ED3392 /* WeatherTab */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4B5F1FDB28C90D5A00A5FA87 /* Build configuration list for PBXNativeTarget "NewsPlugin" */;
+			buildConfigurationList = 4B54DC6E28E2067F00ED3392 /* Build configuration list for PBXNativeTarget "WeatherTab" */;
 			buildPhases = (
-				F971120D21E4C9309364D9DB /* [CP] Check Pods Manifest.lock */,
-				4B5F1FCF28C90D5A00A5FA87 /* Headers */,
-				4B5F1FD028C90D5A00A5FA87 /* Sources */,
-				4B5F1FD128C90D5A00A5FA87 /* Frameworks */,
-				4B5F1FD228C90D5A00A5FA87 /* Resources */,
+				4B54DC6228E2067F00ED3392 /* Headers */,
+				4B54DC6328E2067F00ED3392 /* Sources */,
+				4B54DC6428E2067F00ED3392 /* Frameworks */,
+				4B54DC6528E2067F00ED3392 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = NewsPlugin;
-			productName = NewsPlugin;
-			productReference = 4B5F1FD428C90D5A00A5FA87 /* NewsPlugin.framework */;
+			name = WeatherTab;
+			productName = WeatherTab;
+			productReference = 4B54DC6728E2067F00ED3392 /* WeatherTab.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4B5F1FCB28C90D5A00A5FA87 /* Project object */ = {
+		4B54DC5E28E2067F00ED3392 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
-					4B5F1FD328C90D5A00A5FA87 = {
+					4B54DC6628E2067F00ED3392 = {
 						CreatedOnToolsVersion = 13.3.1;
-						LastSwiftMigration = 1330;
 					};
 				};
 			};
-			buildConfigurationList = 4B5F1FCE28C90D5A00A5FA87 /* Build configuration list for PBXProject "NewsPlugin" */;
+			buildConfigurationList = 4B54DC6128E2067F00ED3392 /* Build configuration list for PBXProject "WeatherTab" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -149,66 +138,44 @@
 				en,
 				Base,
 			);
-			mainGroup = 4B5F1FCA28C90D5A00A5FA87;
-			productRefGroup = 4B5F1FD528C90D5A00A5FA87 /* Products */;
+			mainGroup = 4B54DC5D28E2067F00ED3392;
+			productRefGroup = 4B54DC6828E2067F00ED3392 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4B5F1FD328C90D5A00A5FA87 /* NewsPlugin */,
+				4B54DC6628E2067F00ED3392 /* WeatherTab */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4B5F1FD228C90D5A00A5FA87 /* Resources */ = {
+		4B54DC6528E2067F00ED3392 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B19C0DE28E9D6B700BC036C /* Plugin.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		F971120D21E4C9309364D9DB /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-NewsPlugin-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		4B5F1FD028C90D5A00A5FA87 /* Sources */ = {
+		4B54DC6328E2067F00ED3392 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B5F1FE028C90E0100A5FA87 /* NewsTab.swift in Sources */,
-				4B5F1FE228C90E0900A5FA87 /* NewsViewController.swift in Sources */,
-				4B5F1FE428C90E1100A5FA87 /* NewsTabProvider.swift in Sources */,
+				4B54DC7628E2069E00ED3392 /* AnyTab.swift in Sources */,
+				4B54DC7D28E206E800ED3392 /* WeatherViewController.swift in Sources */,
+				4B54DC7B28E206DF00ED3392 /* WeatherTabProvider.swift in Sources */,
+				4B54DC7928E206D500ED3392 /* WeatherTab.swift in Sources */,
+				4B54DC7528E2069E00ED3392 /* AnyTabProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		4B5F1FD928C90D5A00A5FA87 /* Debug */ = {
+		4B54DC6C28E2067F00ED3392 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -271,7 +238,7 @@
 			};
 			name = Debug;
 		};
-		4B5F1FDA28C90D5A00A5FA87 /* Release */ = {
+		4B54DC6D28E2067F00ED3392 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -328,11 +295,9 @@
 			};
 			name = Release;
 		};
-		4B5F1FDC28C90D5A00A5FA87 /* Debug */ = {
+		4B54DC6F28E2067F00ED3392 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 531AF7DF069A2201A843E429 /* Pods-NewsPlugin.debug.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -340,8 +305,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = NewsPlugin/Source/Info.plist;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -349,21 +314,18 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nestor.NewsPlugin;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nestor.WeatherTab;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		4B5F1FDD28C90D5A00A5FA87 /* Release */ = {
+		4B54DC7028E2067F00ED3392 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C9D8686A1BE21515A2040EB7 /* Pods-NewsPlugin.release.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -371,8 +333,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = NewsPlugin/Source/Info.plist;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -380,7 +342,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nestor.NewsPlugin;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nestor.WeatherTab;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -392,25 +354,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4B5F1FCE28C90D5A00A5FA87 /* Build configuration list for PBXProject "NewsPlugin" */ = {
+		4B54DC6128E2067F00ED3392 /* Build configuration list for PBXProject "WeatherTab" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4B5F1FD928C90D5A00A5FA87 /* Debug */,
-				4B5F1FDA28C90D5A00A5FA87 /* Release */,
+				4B54DC6C28E2067F00ED3392 /* Debug */,
+				4B54DC6D28E2067F00ED3392 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4B5F1FDB28C90D5A00A5FA87 /* Build configuration list for PBXNativeTarget "NewsPlugin" */ = {
+		4B54DC6E28E2067F00ED3392 /* Build configuration list for PBXNativeTarget "WeatherTab" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4B5F1FDC28C90D5A00A5FA87 /* Debug */,
-				4B5F1FDD28C90D5A00A5FA87 /* Release */,
+				4B54DC6F28E2067F00ED3392 /* Debug */,
+				4B54DC7028E2067F00ED3392 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4B5F1FCB28C90D5A00A5FA87 /* Project object */;
+	rootObject = 4B54DC5E28E2067F00ED3392 /* Project object */;
 }

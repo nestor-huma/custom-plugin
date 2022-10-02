@@ -1,26 +1,26 @@
 //
-//  NewsViewController.swift
-//  NewsPlugin
+//  WeatherViewController.swift
+//  WeatherTab
 //
-//  Created by Nestor Popko on 07.09.2022.
+//  Created by Nestor Popko on 26.09.2022.
 //
 
 import Foundation
 import UIKit
 
-final class NewsViewController: UIViewController {
+final class WeatherViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .red
+        view.backgroundColor = .green
         buildUI()
     }
 }
 
-private extension NewsViewController {
+private extension WeatherViewController {
     func buildUI() {
         let label = UILabel()
         label.font = UIFont.systemFont(ofSize: 36)
-        label.text = "News"
+        label.text = "Weather"
         label.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(label)
         
